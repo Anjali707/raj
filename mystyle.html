@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>home page</title>
+    <link rel="stylesheet" href="mystyle1.css">
+  </head>
+  <body>
+      <div class="main">
+        <div  class="toggle">
+          <span id="toggle" onclick="myFunction()">menu</span>
+        </div>
+        <nav id="menu">
+          <ul>
+              <li><a href="#">home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">services</a></li>
+              <li><a href="#">port</a></li>
+              <li><a href="#">contact</a></li>
+              <li><a href="#">team</a></li>
+          </ul>
+          <div style="clear:both">
+
+          </div>
+        </nav>
+      </div>
+<script type="text/javascript">
+let a=1;
+  function myFunction(){
+    if(a==1){
+    document.getElementById("menu").style.display = "none";
+  a=0;
+}else if (a==0) {
+    document.getElementById("menu").style.display = "block";
+a=1;}
+  }
+
+</script>
+  </body>
+</html>
