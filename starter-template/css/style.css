@@ -1,0 +1,152 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+ body{
+   background-color: #f9fbe7;
+   }.icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+ 	font-size: inherit;
+ }
+  .btn-floating.btn-small{
+   margin-top: 12px;
+   background-color: #f9035ecf!important;
+ }
+ .nav-wrapper .logo{
+   margin-right:10px;
+   font-size: 4em!important;
+   color:green!important;
+ }
+
+ #searchbar {
+   float: right;
+   padding:0;
+   padding-left: 15px;
+   border: 1px solid grey;
+   margin-top:2%;
+   margin-right: 10px;
+   font-size: 1em;
+     display: block;
+     text-align: left;
+   width: 30%;
+   height: 40px;
+     }
+     #searchbar:hover{
+       border: 2px solid gold;
+     }
+     .sidenav .top .user-view .background{
+       height: 250px;
+     }
+     .sidenav .top .user-view .circle{
+       margin-top: 20%;
+       margin-left: 30%;
+       height: 100px;
+       width: 100px;
+     }
+     .sidenav .top .user-view .name{
+       text-align: center;
+       font-size: 1.5em;
+     }
+     .sidenav {
+       background: linear-gradient(to top, #ad5389, #3c1053);
+     }
+     .sidenav .bottom #one {
+     margin-top: 20%;
+       text-transform: uppercase;
+       font-size: 1.1em;
+       color: white;
+     }
+     .sidenav .bottom li a {
+     color: white;
+     text-transform: uppercase;
+     font-size: 1.1em;
+
+     }
+ img.responsive-img{
+   height: 100px!important;
+   width: 100px!important;
+   border: 2px solid gold;
+   background-size: cover;
+ max-width: 100px!important;
+ }
+ .row .col.s2{
+   width: 150px!important;
+ }
+ .card-panel{
+   height: 200px;
+   margin: 0px!important;
+ }
+ .black-text{
+   font-size: 1.4em;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-family: 'Lobster', sans-serif!important;
+ }
+
+ .row .col.s12 {
+   color: white;
+   font-weight: bold;
+   font-size: 1.3em;
+   text-transform: capitalize;
+   font-family: 'Lobster', cursive;
+ }
+ .row .col.s4{
+   height: 120px;
+   border-radius: 8%;
+   width:40%!important;
+   margin-left: 7%!important;
+ }
+
+ .white-text{
+   font-size: 1.4em;
+   margin-top: 0;
+   text-decoration: none;
+   font-family: 'Lato', sans-serif;
+ font-weight: bold;
+ text-transform: uppercase;
+ }
+ .container{
+   margin: 0!important;
+   width: 100%!important;
+   height: 280px;
+   max-width: 100%!important;
+   }
+ .material-icons {
+ margin-left: 40%!important;
+ line-height: 70px!important;
+ }
+
+ .box{
+   height: 100px;
+   width: 100%;
+   margin-bottom: 0;
+ }
+ .box p{
+   color:grey;
+   font-size: 1.4em;
+   font-weight:bold;
+   text-transform: capitalize;
+   font-family: 'Lobster', cursive;
+ }
+ .btn {
+   margin-top: 13px!important;
+   margin-right: 20px!important;
+ }
+     /*
+     @media only screen and (min-width: 300px)
+ {
+   nav{
+     height: 100px!important;
+     line-height: 100px!important;
+   }
+   nav .sidenav-trigger i, nav .logo{
+     font-size: 4em!important;
+   }
+ }
